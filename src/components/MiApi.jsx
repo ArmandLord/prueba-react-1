@@ -20,6 +20,9 @@ const MiApi = () => {
 
   return (
     <div>
+      {/* Crea otro componente llamado buscador, que filtre por alguno de los resultados de la
+API. Por ejemplo, nombre, precio o cualquier otro tipo de criterio coherente con el
+resultado de la API. */}
       {feriados.map((feriado) => (
         <h1
           style={{
